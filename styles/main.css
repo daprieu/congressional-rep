@@ -1,0 +1,25 @@
+.representativeTitle {
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rep__pic {
+    display: flex;
+    justify-content: flex-end;
+    float: right; margin-left: 20px;
+    border: solid 2px;
+    padding: 2px;
+}
+
+.rep__item {
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+
+.rep__subSection {
+    
+    
+    
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- article element: main representative component -->
+    <article class="representativeTitle">United States Congressional Representative</article>
+        <!-- sub-component for basic information
+            this secion will hold:
+            an img
+            name 
+            district info 
+            and political affiliation -->
+        <section class="rep__section bio">
+            <img class="rep__pic img" src="Jim Cooper.jpg">
+            <p class="rep__item name p">Name: Rep. Jim Cooper</p>
+            <p class="rep__item age p">Age: 66</p>
+            <p class="rep__item district p">District info: 5th district</p>
+            <p class="rep__item polyAff p">Political affiliation: Democrat</p>
+                <!--sub-sub-component holding elelment for committes-->
+                <section class="rep__subSection">
+                    <p class="rep__subSection committee p">committees:<p>
+                        <ul class="rep__subSection committee ul">United States House Committee on Armed Services
+                            <li class="rep__subSection committee li">Subcommittee on Intelligence, Emerging Threats & Capabilities</li>
+                            <li class="rep__subSection committee li">Subcommittee on Seapower & Projection Forces</li>
+                            <li class="rep__subSection committee li">Subcommittee on Strategic Forces, Chairman</li>
+                        </ul>
+                        <ul class="rep__subSection committee ul">United States House Committee on Oversight and Reform
+                            <li class="rep__subSection committee li">Subcommittee on National Security</li>
+                        </ul>
+                        <ul class="rep__subSection committee ul">United States House Committee on the Budget</ul>
+                    
+                </section>
+                <!--last component holding links to legislation enacted-->
+                <p class="rep__section legislation">Legislation enacted: N/A</p>
+        </section>
+        
+</body>
+</html>
